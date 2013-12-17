@@ -11,10 +11,12 @@ SSexecutor uses the Paramiko module.
 SSexecutor.py cointains a function called "main" which is used to trigger the project.
 
 Usage:
-  SSexecutor can be used to transfer a single file from local machine to a remote machine and execute it or a whole     project can be transferred and executed.
+  - SSexecutor can be used to transfer a single file from local machine to a remote machine and execute it or a whole     project can be transferred and executed.
 
-  Insert the IP Address, Username and Password of the remote machine in the placeholders provided in __main__ of SSexectuor.py 
+  - Insert the IP Address, Username and Password of the remote machine in the placeholders provided in __main__ of SSexectuor.py 
   
-  Insert the path to file in the local machine in the placeholder provided in the __main__ of SSexecutor.py
+  - Insert the path to file in the local machine in the placeholder provided in the __main__ of SSexecutor.py
   
-  If you are sending a .zip file to the remote machine you must provide the name of the file which must be executed as well. This is called "triggerFile"
+  - Mention the file extension type in the placeholer provider provided in the __main__ of the SSexecutor.py 
+  
+  - If you are sending a .zip file to the remote machine you must provide the name of the file which must be executed as well. This is called "triggerFile"
