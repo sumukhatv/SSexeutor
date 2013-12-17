@@ -104,7 +104,8 @@ if __name__ == '__main__':
     uName = "" # insert the username of the remote machine here
     pWord = "" # insert the password of the remote machine here
     locPath = r"" # insert the local path to the file here
-	triggerFile = "" # insert the triggerFile name here
-    print main(ipaddr, uName, pWord, locPath, fileExtn = "", compressionType = "zip", triggerFile) # use this if you are sending a zip file to the remote machine
-    print main(ipaddr, uName, pWord, locPath, fileExtn = "") # use this if you are sending a single file to the remote machine
+    triggerFile = "" # insert the triggerFile name here
+    fileExtn = "" # C, CPP or PYTHON
+    print main(ipaddr, uName, pWord, locPath, fileExtn, compressionType = "zip", triggerFile) # use this if you are sending a zip file to the remote machine
+    print main(ipaddr, uName, pWord, locPath, fileExtn) # use this if you are sending a single file to the remote machine
 
