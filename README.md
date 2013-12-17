@@ -8,7 +8,7 @@ Currently C, C++ and Python programs are supported.
 
 SSexecutor uses the Paramiko module. 
 
-SSexecutor.py cointains a function calles "main" which is used to trigger the project.
+SSexecutor.py cointains a function called "main" which is used to trigger the project.
 
 Usage:
   SSexecutor can be used to transfer a single file from local machine to a remote machine and execute it or a whole     project can be transferred and executed.
